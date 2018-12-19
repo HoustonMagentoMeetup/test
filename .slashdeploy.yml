@@ -1,0 +1,8 @@
+version: 1
+default_environment: production
+default_channel: deploy
+
+environments:
+  production:
+    auto_deploy:
+      ref: refs/heads/master
